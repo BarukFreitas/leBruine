@@ -1,8 +1,27 @@
-.restaurantes{
+/* Remova list-style-type: none; da classe .restaurantes */
+
+.restaurantes {
     padding: 2% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    list-style-type: none; 
-};
+}
 
+/* Mantenha a estilização da classe .reserva e .table_reserva */
+
+.reserva {
+    background-color: red;
+    /* Outros estilos, se necessário */
+}
+
+.table_reserva {
+    width: 100%;
+    border-collapse: collapse;
+    /* Outros estilos, se necessário */
+}
+
+.table_reserva td {
+    padding: 10px; /* Adapte o espaçamento interno conforme necessário */
+    border: 1px solid #ddd; /* Adicione uma borda para separar as células */
+    text-align: center; /* Centralize o texto nas células */
+}
