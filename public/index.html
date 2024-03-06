@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Le Bruine</title>
-    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+    <header class="header">
+        <div class="logo"><img src="/assets/le-Bruine-logo.png" alt="logo-loja" class="logo_image"></div>
+        <div><input type="text" placeholder="Busque por restaurante, comida, cidade..." class="search_bar"></div>
+        <div class="options"></div>
+        <div class="login"></div>
+    </header>
     <h1>Le Bruine</h1> <!-- Aqui será substituído pela Logo -->
     
     <main class="restaurantes">
@@ -33,7 +39,7 @@
             <table class="table_reserva">
                 <tr>
                     <td>(87) 99909-0001</td>
-                    <td class="reserva">Fazer reserva</td>
+                    <td class="reserva"><button>Fazer reserva</button></td>
                 </tr>
                 <tr>
                     <td>(87) 99909-0001</td>
@@ -68,8 +74,9 @@
         </section>
     </main>
     <h2>O que você quer reservar hoje?</h2>
-    <img src="/assets/sushi.png" alt="Sushi"> <img src="/assets/pizza.png" alt="Pizza"> <img src="/assets/hamburger.png" alt="Hamburger"> <img src="/assets/massas.png" alt="massas">
-    <img src="/assets/pizzaBanner.png" alt="Banner">
-
+    <div>
+        <img src="/assets/sushi.png" alt="Sushi" class="size-image"> <img src="/assets/pizza.png" alt="Pizza" class="size-image"> <img src="/assets/hamburger.png" alt="Hamburger" class="size-image"> <img src="/assets/massas.png" alt="massas" class="size-image">
+        <img src="/assets/pizzaBanner.png" alt="Banner">
+    </div>
 </body>
 </html>
