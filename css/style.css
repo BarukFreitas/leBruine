@@ -11,16 +11,73 @@
     background-color: #D80E0E;
     display: flex;
     align-items: center;
+    border-style: none;
 }
 
 .logo {
     margin-left: 24px;
+    margin-right: 80px;
 }
 
-.search-bar {
+.search_area {
+    display: flex;
+    align-items: center;
+}
+
+.search_bar {
     width: 423px;
     height: 47px;
     background-color: #fff;
+    font-size: 17px;
+    color: black;
+    padding-left: 8px;
+    margin-right: 14px;
+}
+
+.search_bar::placeholder {
+    font-style: italic;
+    color: lightgray;
+    padding-left: 8px;
+    font-size: 15px;
+}
+
+.button_search {
+    width: 61px;
+    height: 47px;
+    background-color: rgba(216, 14, 14, 1);
+}
+
+.options {
+    display: flex;
+    font-family: 'Glory', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.menu {
+    padding: 0 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.login {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 48px;
+    padding: 0;
+}
+
+.font_login {
+    font-family: 'Glory', sans-serif;
+    font-size: 19px;
+    color: #fff;
+    font-weight: 500;
 }
 
 .restaurantes {
