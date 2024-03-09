@@ -44,13 +44,13 @@ var restaurantes = {
   
   document.addEventListener('DOMContentLoaded', function() {
     var nomeRestauranteElement = document.getElementById('nomeRestauranteValor');
-    nomeRestauranteElement.textContent = restaurantes.restaurante2.nome;
+    nomeRestauranteElement.textContent = restaurantes.restaurante6.nome;
   });
   
-  for(let chave in restaurantes){
-    if(restaurantes.hasOwnProperty(chave)){
-      let restaurante = restaurantes[chave];
-      let nomeRestaurante = restaurante.nome;
-      console.log(nomeRestaurante);
-    }
-  };
+  // for(let chave in restaurantes){
+  //   if(restaurantes.hasOwnProperty(chave)){
+  //     let restaurante = restaurantes[chave];
+  //     let nomeRestaurante = restaurante.nome;
+  //     console.log(nomeRestaurante);
+  //   }
+  // };
