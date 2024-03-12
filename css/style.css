@@ -5,23 +5,33 @@
     box-sizing: border-box;
 }
 
-.header {
+body {
     width: 100%;
+    height: 100%;
+}
+
+.header {
+    /* width: 100%; */
     height: 93px;
     background-color: #D80E0E;
     display: flex;
     align-items: center;
     border-style: none;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 .logo {
-    margin-left: 24px;
-    margin-right: 80px;
+    /* margin-left: 24px;
+    margin-right: 80px; */
 }
 
 .search_area {
     display: flex;
     align-items: center;
+    /* margin: auto;
+    padding: auto; */
 }
 
 .search_bar {
@@ -32,6 +42,9 @@
     color: black;
     padding-left: 8px;
     margin-right: 14px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 8px;
 }
 
 .search_bar::placeholder {
@@ -95,6 +108,9 @@ a {
     height: 32px;
     margin-top: 8px;
     margin-left: 8px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 10px;
 }
 
 .text {
@@ -126,10 +142,10 @@ a.city {
 .carousel {
     width: 100%;
     height: 270px;
-    margin-left: 16px;
     margin-top: 24px;
     display: flex;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 .img_card {
@@ -143,7 +159,18 @@ a.city {
     height: 270px;
     border-radius: 8px;
     margin: 0 16px 16px 0;
-    background-image: url(../assets/hamburger.png);
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(../assets/hamburger.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Glory',  sans-serif;
 }
 
 .card_sushi {
@@ -151,7 +178,16 @@ a.city {
     height: 270px;
     border-radius: 8px;
     margin: 0 16px 16px 0;
-    background-image: url(../assets/sushi.png) ;
+    background:
+    linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url(../assets/sushi.png);background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Glory',  sans-serif;
 }
 
 .card_massas {
@@ -159,7 +195,16 @@ a.city {
     height: 270px;
     border-radius: 8px;
     margin: 0 16px 16px 0;
-    background-image: url(../assets/massas.png) ;
+    background:
+    linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url(../assets/massas.png);background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Glory',  sans-serif;
 }
 
 .card_pizza {
@@ -167,7 +212,16 @@ a.city {
     height: 270px;
     border-radius: 8px;
     margin: 0 16px 16px 0;
-    background-image: url(../assets/pizza.png) ;
+    background:
+    linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url(../assets/pizza.png);background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Glory',  sans-serif;
 }
 
 .restaurantes {
