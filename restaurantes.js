@@ -41,16 +41,18 @@ var restaurantes = {
   }
 }
 
-  
-  document.addEventListener('DOMContentLoaded', function() {
-    var nomeRestauranteElement = document.getElementById('nomeRestauranteValor');
-    nomeRestauranteElement.textContent = restaurantes.restaurante6.nome;
-  });
-  
-  // for(let chave in restaurantes){
-  //   if(restaurantes.hasOwnProperty(chave)){
-  //     let restaurante = restaurantes[chave];
-  //     let nomeRestaurante = restaurante.nome;
-  //     console.log(nomeRestaurante);
-  //   }
-  // };
+function reserva(id){
+    window.location.href = 'fazerPedido.html?id=' + id;
+}
+
+document.addEventListener('DOMContentLoaded', function(){
+    const urlParams = new URLSearchParams(window.location.search);
+    const id = urlParams.get('id');
+
+    if (id){
+        const mensagem = 'Você fez pedido no(a): '+restaurantes['restaurante'+id].nome;
+
+        document.getElementById('mensagemPedido').innerText = mensagem;
+    }
+});
+
