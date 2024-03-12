@@ -1,7 +1,7 @@
-document.getElementById('reserva').onclick=function(){reserva()};
-function reserva(){
-    window.location.href = "fazerPedido.html"
-};
+// document.getElementById('reserva').onclick=function(){reserva()};
+// function reserva(){
+//     window.location.href = "fazerPedido.html"
+// };
 
 function search() {
     let input = document.getElementById('searchBar').value;
