@@ -57,7 +57,9 @@ body {
 .button_search {
     width: 61px;
     height: 47px;
-    background-color: rgba(216, 14, 14, 1);
+    background-color: rgb(110, 5, 5);
+    border-radius: 8px;
+    border-style: none;
 }
 
 .options {
@@ -96,7 +98,7 @@ a {
 .title {
     font-family: 'Glory', sans-serif;
     /* margin: 24px 0 24px 24px; */
-    color: rgba(216, 14, 14, 1);
+    color: rgba(216, 14, 14, 1);    
     margin-right: 500px;
     padding: 8px;
 }
@@ -161,8 +163,8 @@ a.city {
     margin: 0 16px 16px 0;
     background:
     linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
     ), url(../assets/hamburger.png);
     background-position: center;
     background-size: cover;
@@ -180,8 +182,8 @@ a.city {
     margin: 0 16px 16px 0;
     background:
     linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)), url(../assets/sushi.png);background-position: center;
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)), url(../assets/sushi.png);background-position: center;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -197,8 +199,8 @@ a.city {
     margin: 0 16px 16px 0;
     background:
     linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)), url(../assets/massas.png);background-position: center;
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)), url(../assets/massas.png);background-position: center;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -214,8 +216,8 @@ a.city {
     margin: 0 16px 16px 0;
     background:
     linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)), url(../assets/pizza.png);background-position: center;
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)), url(../assets/pizza.png);background-position: center;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -251,7 +253,5 @@ a.city {
     text-align: center; /* Centralize o texto nas células */
 }
 
-.size-image {
-    width: 200px;
-    height: 80px;
-}
+
+
