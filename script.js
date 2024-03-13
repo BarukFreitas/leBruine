@@ -44,3 +44,19 @@ var caminhoJSON = '/public/restaurantes.json';
 carregarJSON(caminhoJSON, function(dados) {
     console.log(dados); // Os dados do JSON estão disponíveis aqui
 });
+
+// Função para exibir o campo de pesquisa de CEP
+function exibirCampoCEP() {
+    var pesquisaCEP = document.getElementById('pesquisaCEP');
+    pesquisaCEP.style.display = 'block';
+  }
+
+  // Função para pesquisar o CEP
+  function pesquisarCEP() {
+    var inputCEP = document.getElementById('inputCEP').value;
+    // Aqui você pode adicionar sua lógica para pesquisar o CEP
+    console.log('CEP digitado:', inputCEP);
+  }
+
+  // Adiciona evento de clique ao link "Garanhuns - PE"
+  document.getElementById('localizacao').addEventListener('click', exibirCampoCEP);

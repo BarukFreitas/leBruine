@@ -27,6 +27,10 @@
         <div class="my_place">
             <img src="/assets/pin_map_ico.svg" alt="pin mapa" class="pin_map">
             <p class="text">Você está em: <a href="#" class="city">Garanhuns-PE</a></p>
+            <div id="pesquisarCEP" style="display: none;">
+                <input type="text" id="inputCEP" placeholder="Digite o CEP">
+                <button onclick="pesquisarCEP()">Pesquisar</button>
+            </div>
             <p class="text_minor">Não é o seu local? clique na cidade e escolha seu endereço</p>
         </div>
     </div>
@@ -55,8 +59,8 @@
             <div class="n-fone">
                 <span class="fone">(87)99909-0001</span>
             </div>
-            <div class="btn-reserva">
-                <button class="reserva">Fazer reserva</button>
+            <div class="btn-reserva" onclick="reserva(1)">
+                <button class="reserva" onclick="reserva(1)">Fazer reserva</button>
             </div>
         </div> <!--final restaurante sokomo-->
 
@@ -68,8 +72,8 @@
             <div class="n-fone">
                 <span class="fone">(87)99909-0002</span>
             </div>
-            <div class="btn-reserva">
-                <button class="reserva">Fazer reserva</button>
+            <div class="btn-reserva" onclick="reserva(2)">
+                <button class="reserva" onclick="reserva(2)">Fazer reserva</button>
             </div>
         </div> <!--final restaurante boungiorno-->
 
@@ -81,8 +85,8 @@
             <div class="n-fone">
                 <span class="fone">(87)99909-0003</span>
             </div>
-            <div class="btn-reserva">
-                <button class="reserva">Fazer reserva</button>
+            <div class="btn-reserva" onclick="reserva(3)">
+                <button class="reserva" onclick="reserva(3)">Fazer reserva</button>
             </div>
         </div> <!--final batataria da rosangela-->
 
@@ -94,8 +98,8 @@
             <div class="n-fone">
                 <span class="fone">(87)99909-0004</span>
             </div>
-            <div class="btn-reserva">
-                <button class="reserva">Fazer reserva</button>
+            <div class="btn-reserva" onclick="reserva(4)">
+                <button class="reserva" onclick="reserva(4)">Fazer reserva</button>
             </div>
         </div> <!--final pastelaria do china-->
 
@@ -107,8 +111,8 @@
             <div class="n-fone">
                 <span class="fone">(87)99909-0005</span>
             </div>
-            <div class="btn-reserva">
-                <button class="reserva">Fazer reserva</button>
+            <div class="btn-reserva" onclick="reserva(5)">
+                <button class="reserva" onclick="reserva(5)">Fazer reserva</button>
             </div>
         </div> <!--final restaurante gran finezzi-->
 
@@ -120,8 +124,8 @@
             <div class="n-fone">
                 <span class="fone">(87)99909-0006</span>
             </div>
-            <div class="btn-reserva">
-                <button class="reserva">Fazer reserva</button>
+            <div class="btn-reserva" onclick="reserva(6)">
+                <button class="reserva" onclick="reserva(6)">Fazer reserva</button>
             </div>
         </div> <!--final hamburgueria do ronaldo-->
 
@@ -133,8 +137,8 @@
             <div class="n-fone">
                 <span class="fone">(87)99909-0007</span>
             </div>
-            <div class="btn-reserva">
-                <button class="reserva">Fazer reserva</button>
+            <div class="btn-reserva" onclick="reserva(7)">
+                <button class="reserva" onclick="reserva(7)">Fazer reserva</button>
             </div>
         </div> <!--final rock bar gus-->
 
@@ -146,8 +150,8 @@
             <div class="n-fone">
                 <span class="fone">(87)99909-0008</span>
             </div>
-            <div class="btn-reserva">
-                <button class="reserva">Fazer reserva</button>
+            <div class="btn-reserva" onclick="reserva(8)">
+                <button class="reserva" onclick="reserva(8)">Fazer reserva</button>
             </div>
         </div> <!--final pizzaria massa quente-->
 
