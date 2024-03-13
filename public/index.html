@@ -11,7 +11,7 @@
 <body>
     <header class="header">
         <a href="#"><div class="logo"><img src="/assets/le-Bruine-logo.png" alt="logo-loja" class="logo_image"></div></a>
-        <div class="search_area"><input type="text" placeholder="Busque por restaurante, comida, cidade..." class="search_bar" id="searchBar"><button class="button_search"><img src="/assets/lupa.svg" alt=""></button></div>
+        <div class="search_area"><input type="text" placeholder="Busque por restaurante, comida, cidade..." class="search_bar" id="searchBar" onkeyup="search()"><button class="button_search"><img src="/assets/lupa.svg" alt=""></button></div>
         <div class="options">
             <a href="#"><div class="menu">Fazer reserva</div></a>
             <a href="#"><div class="menu">Minhas reservas</div></a>
@@ -51,7 +51,7 @@
     </div>
     
     <main class="restaurantes">
-        <div class="info"> <!--começo restaurante sokomo-->
+        <div class="info" id="sokomo_kudeomi"> <!--começo restaurante sokomo-->
             <div class="sub-info">
                 <h2 class="r_titulo">Restaurante Sokomo Kudeomi</h2>
                 <h4 class="rua">Rua Napoleão Bonaparte, 32, Boa Vista - Garanhuns-PE</h4>
@@ -64,7 +64,7 @@
             </div>
         </div> <!--final restaurante sokomo-->
 
-        <div class="info"> <!--começo restaurante Boungiorno-->
+        <div class="info" id="boungiorno"> <!--começo restaurante Boungiorno-->
             <div class="sub-info">
                 <h2 class="r_titulo">Restaurante Boungiorno</h2>
                 <h4 class="rua">Rua Tereza Leão Passos, 109, Cohab 2 - Garanhuns-PE</h4>
@@ -77,7 +77,7 @@
             </div>
         </div> <!--final restaurante boungiorno-->
 
-        <div class="info"> <!--começo Batatria da rosangela-->
+        <div class="info" id="rosangela"> <!--começo Batatria da rosangela-->
             <div class="sub-info">
                 <h2 class="r_titulo">Batataria da Rosangela</h2>
                 <h4 class="rua">Av. Rotary, 455, Santo Antônio - Garanhuns-PE</h4>
@@ -90,7 +90,7 @@
             </div>
         </div> <!--final batataria da rosangela-->
 
-        <div class="info"> <!--começo pastelaria do china-->
+        <div class="info" id="china"> <!--começo pastelaria do china-->
             <div class="sub-info">
                 <h2 class="r_titulo">Pastelaria do China</h2>
                 <h4 class="rua">Av. Senador Jacinto Pinto, 2077, Heliópolis - Garanhuns-PE </h4>
@@ -103,7 +103,7 @@
             </div>
         </div> <!--final pastelaria do china-->
 
-        <div class="info"> <!--começo restaurante Gran finezzi-->
+        <div class="info" id="gran_finezzi"> <!--começo restaurante Gran finezzi-->
             <div class="sub-info">
                 <h2 class="r_titulo">Restaurante Gran Finezzi</h2>
                 <h4 class="rua">Rua Farrapos de Portugal, 908, Boa Vista - Garanhuns-PE</h4>
@@ -116,7 +116,7 @@
             </div>
         </div> <!--final restaurante gran finezzi-->
 
-        <div class="info"> <!--começo hamburgueria do ronaldo-->
+        <div class="info" id="ronaldo"> <!--começo hamburgueria do ronaldo-->
             <div class="sub-info">
                 <h2 class="r_titulo">Hamburgueria do Ronaldo</h2>
                 <h4 class="rua">Rua Amaury Jorge, 1098, Magano - Garanhuns-PE</h4>
@@ -129,7 +129,7 @@
             </div>
         </div> <!--final hamburgueria do ronaldo-->
 
-        <div class="info"> <!--começo rock bar gus-->
+        <div class="info" id="rock_bar"> <!--começo rock bar gus-->
             <div class="sub-info">
                 <h2 class="r_titulo">Rock Bar Gus</h2>
                 <h4 class="rua">Tv. Souza Gouveia, 287, Cohab 2 - Garanhuns-PE</h4>
@@ -142,7 +142,7 @@
             </div>
         </div> <!--final rock bar gus-->
 
-        <div class="info"> <!--começo pizzaria massa quente-->
+        <div class="info" id="massa_quente"> <!--começo pizzaria massa quente-->
             <div class="sub-info">
                 <h2 class="r_titulo">Pizzaria Massa Quente</h2>
                 <h4 class="rua">Tv. Souza Gouveia, 287, Cohab 2 - Garanhuns-PE</h4>
