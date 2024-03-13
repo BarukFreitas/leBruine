@@ -50,8 +50,14 @@ body {
 }
 
 .text-area {
+    box-sizing: border-box;
+    justify-content: center;
     text-align: center;
     margin-top: 40px;
+}
+
+.container-btn {
+    text-align: center;
 }
 
 button.logado {
@@ -65,6 +71,7 @@ button.logado {
     border-radius: 8px;
     border: none;
     margin-top: 16px;
+    text-align: center;
 }
 
 button.logado:hover {
@@ -75,9 +82,8 @@ button.logado:hover {
 }
 
 .login {
-    position: absolute;
-    margin-top: 16px;
-    margin-left: 490px;
+    display: flex;
+    justify-content: center;
 }
 
 .input {
@@ -95,7 +101,7 @@ button.logado:hover {
     height: 80%;
     border: white;
     border-style: none;
-
+    outline: 0;
 }
 
 .logo-input {
