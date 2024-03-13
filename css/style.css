@@ -227,10 +227,10 @@ a.city {
 }
 
 .restaurantes {
-    padding: 2% 15%;
-    display: flex;
+    padding: 16px;
     align-items: center;
-    justify-content: space-between;
+    width: 100%;
+    height: 100%;
 }
 
 /* Mantenha a estilização da classe .reserva e .table_reserva */
@@ -253,5 +253,45 @@ a.city {
     text-align: center; /* Centralize o texto nas células */
 }
 
+.info {
+    display: flex;
+    font-family: 'Glory', sans-serif;
+    align-items: end;
+    width: 100%;
+    margin-bottom: 16px;
+}
 
+.sub-info {
+    float: left;
+    margin-right: auto;
+}
+
+.fone {
+    font-family: 'Glory', sans-serif;
+    font-size: 20px;
+    color: #D80E0E;
+    align-items: baseline;
+    font-weight: bold;
+    float: right;
+}
+
+.reserva {
+    width: 138px;
+    height: 38px;
+    background-color: #D80E0E;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Glory', sans-serif;
+    font-size: 18px;
+    margin-left: 16px;
+}
+
+.r_titulo {
+    color: #D80E0E;
+}
+
+.rua {
+    color: gray;
+}
 
