@@ -116,3 +116,31 @@ button.logado:hover {
     margin-top: 16px;
     margin-left: 490px;
 }
+/*******************************RODAPÉ***********************************/
+
+.rodape {
+    margin-top: 200px;
+    width: 100%;
+    height: 120px;
+    background-color: #D80E0E;
+    font-family: 'Glory',  sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 8px;
+    justify-content: space-between;
+}
+
+p.footer {
+    padding-top: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.rede-social {
+    display: inline-block;
+    align-items: end;
+    padding-left: 4px;
+    width: 22px;
+    height: 22px;
+}
