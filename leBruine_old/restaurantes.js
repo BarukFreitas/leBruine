@@ -52,7 +52,12 @@ document.addEventListener('DOMContentLoaded', function(){
     if (id){
         const mensagem = 'Você fez pedido no(a): '+restaurantes['restaurante'+id].nome;
 
-        document.getElementById('mensagemPedido').innerText = mensagem;
+        if (id && restaurantes['restaurante' + id]) {
+            const mensagem = 'Você fez pedido no(a): ' + restaurantes['restaurante' + id].nome;
+            document.getElementById('mensagemPedido').innerText = mensagem;
+        } else {
+            document.getElementById('mensagemPedido').innerText = 'ID do restaurante inválido.';
+        }
     }
 });
 
