@@ -1,0 +1,29 @@
+.rodape {
+    margin-top: 200px;
+    /* width: 100%; */
+    height: 120px;
+    background-color: #D80E0E;
+    font-family: 'Glory',  sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    /* padding-top: 4px; */
+    /* margin-top: 12px; */
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.rede-social {
+    display: inline-block;
+    align-items: end;
+    padding-left: 4px;
+    width: 22px;
+    height: 22px;
+}

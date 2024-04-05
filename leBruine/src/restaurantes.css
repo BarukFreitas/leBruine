@@ -3,18 +3,11 @@
     /* padding: 16px; */
     margin-top: 24px;
     padding-left: 16px;
-<<<<<<< HEAD
     align-items: end;
     width: auto;
     height: 100%;
     justify-content: space-between;
     gap: 16px;
-=======
-    align-items: center;
-    width: auto;
-    height: 100%;
-    justify-content: space-around;
->>>>>>> dc6f4cbd7c49a749e9c13e6188beb6bbffd0145e
 }
 
 .info {
