@@ -1,9 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import '../src/restaurantes.css'
 
 
 ReactDOM.createRoot(document.getElementById('restaurantes')).render(
-    <div>
+    <div className="restaurantes">
         <div className="info" id="katon">
             <div className="sub-info">
                 <h2 className="r_titulo">Restaurante Katon Haisekisho</h2>

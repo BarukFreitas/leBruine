@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import '../src/carousel.css';
 
 
 ReactDOM.createRoot(document.getElementById('carousel')).render(
