@@ -23,7 +23,7 @@
     linear-gradient(
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
-    ), url(./assets/hamburger.png);
+    ), url(../assets/hamburger.png);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -42,7 +42,7 @@
     background:
     linear-gradient(
     rgba(0, 0, 0, 0.6),
-    rgba(0, 0, 0, 0.6)), url(./assets/sushi.png);
+    rgba(0, 0, 0, 0.6)), url(../assets/sushi.png);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -60,7 +60,7 @@
     background:
     linear-gradient(
     rgba(0, 0, 0, 0.6),
-    rgba(0, 0, 0, 0.6)), url(./assets/massas.png);background-position: center;
+    rgba(0, 0, 0, 0.6)), url(../assets/massas.png);background-position: center;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -77,7 +77,7 @@
     background:
     linear-gradient(
     rgba(0, 0, 0, 0.6),
-    rgba(0, 0, 0, 0.6)), url(./assets/pizza.png);background-position: center;
+    rgba(0, 0, 0, 0.6)), url(../assets/pizza.png);background-position: center;
     background-size: cover;
     display: flex;
     justify-content: center;
