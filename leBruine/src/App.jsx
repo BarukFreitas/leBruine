@@ -1,18 +1,15 @@
-import React from "react";
-import ReactDOM from 'react-dom/client';
-import Header from "./header";
-import MyPlace from "./myPlace";
-import Carousel from "./carousel";
-import Restaurantes from "./restaurantes";
-import Footer from "./footer";
-// import './css/index.css';
+import React from 'react'
+import { Outlet } from 'react-router-dom'
 
-ReactDOM.createRoot(document.getElementById('index')).render(
-    <React.StrictMode>
-        <Header />
-        <MyPlace />
-        <Carousel />
-        <Restaurantes />
-        <Footer />
-    </React.StrictMode>
-)
+const App = () => {
+  return (
+    <div>
+      <p>NavBar</p>
+      <h1>React Router</h1>
+      <Outlet />
+      <p>Footer</p>
+    </div>
+  )
+}
+
+export default App
