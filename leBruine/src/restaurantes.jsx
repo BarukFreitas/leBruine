@@ -1,5 +1,6 @@
 import React from "react";
 import './css/restaurantes.css'
+import { Link } from "react-router-dom";
 
 function Restaurantes(){
     return(
@@ -14,7 +15,7 @@ function Restaurantes(){
                 <span className="fone">(87)99909-0001</span>
             </div>
             <div className="btn-reserva">
-                <button className="reserva">Fazer Reserva</button>
+                <button className="reserva"><Link>Fazer Reserva</Link></button>
             </div>
         </div>
     )
