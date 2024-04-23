@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('header')).render(
             <a href="#"><div className='menu'>Minhas Reservas</div></a>
             <a href="#"><div className='menu'>Restaurantes</div></a>
         </div>
-        <a href="login_html"><div className='login'>
+        <a href='login.html'><div className='login'>
             <img src={loginIcon} alt="icone de login" />
             <p className='font_login'>Login</p>
             </div></a>
